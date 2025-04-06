@@ -36,19 +36,15 @@ A full-featured multiplayer implementation of the **Crazy Eights** card game usi
 ├── F24_JAP_CompileScript.bat  # Build/run script
 ├── README.md
 └── CrazyEights.jar       # Executable JAR
+```
 
 🧠 How It Works
-StartPage.java: Launches GUI with Host/Join options.
-
-GameController.java: Handles game logic and syncs between model/view/network.
-
-GameView.java: Displays cards, players, draw pile, and chat area.
-
-NetworkHandler.java: Handles TCP socket communication between host and clients.
-
-Game.java: Maintains overall state (deck, turns, player hands).
-
-Card.java / Deck.java: Represents individual cards and card deck logic.
+- StartPage.java: Launches GUI with Host/Join options.
+- GameController.java: Handles game logic and syncs between model/view/network.
+- GameView.java: Displays cards, players, draw pile, and chat area.
+- NetworkHandler.java: Handles TCP socket communication between host and clients.
+- Game.java: Maintains overall state (deck, turns, player hands).
+- Card.java / Deck.java: Represents individual cards and card deck logic.
 
 🔧 Requirements
 Java 17+ (compile with --release 17)
@@ -59,18 +55,19 @@ Windows (batch file tested), but Java is cross-platform
 
 🛠️ Building & Running
 📦 Option 1: Use the Batch File
-    F24_JAP_CompileScript.bat
-Compiles source → bin/
-Generates Javadoc → doc/
-Creates executable → bin/CrazyEights.jar
-Launches the game!
+        F24_JAP_CompileScript.bat
+- Compiles source → bin/
+- Generates Javadoc → doc/
+- Creates executable → bin/CrazyEights.jar
+- Launches the game!
 
 🖱️ Option 2: Run JAR directly
-    java -jar bin/CrazyEights.jar
+        java -jar bin/CrazyEights.jar
+        
 📄 License
 This project was built for academic purposes and is free to use for learning or portfolio work.
 
 🙋‍♂️ Author
 Mustafa Jawish
-📘 GitHub: Mustafa Jawish
+📘 GitHub: Mustafa22J
 📧 Contact: ender201619@gmail.com
