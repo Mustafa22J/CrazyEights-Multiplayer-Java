@@ -1,4 +1,5 @@
-🎴 Crazy Eights - Multiplayer Java Game
+**🎴 Crazy Eights - Multiplayer Java Game
+**
 A full-featured multiplayer implementation of the **Crazy Eights** card game using Java and Swing GUI, designed with MVC architecture and network support (client/server). Built as part of CST8116 Java Application Programming coursework at **Algonquin College**.
 
 ---
